@@ -1,0 +1,53 @@
+
+.cardsPhone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+ul li {
+    list-style-type: none;
+}
+.panier {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+
+}
+
+.articlepanier {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-items: center;
+    grid-template-rows: auto;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+@media screen and (min-width: 425px) {
+    .Phone {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .Phone {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+    }
+
+}
+
+.App {
+    display: grid;
+    grid-gap: 50px;
+}

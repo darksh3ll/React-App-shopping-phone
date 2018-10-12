@@ -1,0 +1,64 @@
+[
+
+  {
+    "article" :"Apple iPhone Xs Max 256 Go Or",
+    "prix" : 1429.95,
+    "img":"https://media.ldlc.com/ld/products/00/05/02/16/LD0005021674_2_0005021737.jpg"
+
+  },
+
+  {
+    "article" :"Samsung Galaxy Note 9 Noir",
+    "prix" : 1009.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/98/47/LD0004984788_2.jpg"
+  },
+
+  {
+    "id": 1,
+    "article" :"Huawei P20 Pro Twilight",
+    "prix" : 749.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/83/56/LD0004835608_2.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "article" :"Nokia 130 Dual SIM Rouge ",
+    "prix" : 29.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/56/65/LD0004566556_2.jpg"
+  },
+
+  {
+    "id": 3,
+    "article" :"Nokia 3310 (2017) Jaune ",
+    "prix" : 69.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/45/49/LD0004454944_2.jpg"
+  },
+
+  {
+    "id": 4,
+    "article" :"LG V30 Bleu",
+    "prix" : 899.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/66/65/LD0004666591_2.jpg"
+  },
+
+  {
+    "id": 5,
+    "article" :"LG Q6 Noir",
+    "prix" : 249.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/50/43/LD0004504361_2.jpg"
+  },
+  {
+    "id": 6,
+    "article" :"BlackBerry KEY2 Noir",
+    "prix" : 699.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/95/44/LD0004954400_2_0004961916.jpg"
+  },
+
+  {
+    "id": 7,
+    "article" :"Motorola Moto E5 Gris",
+    "prix" : 159.95,
+    "img":"https://media.ldlc.com/ld/products/00/04/91/31/LD0004913134_2.jpg"
+  }
+]

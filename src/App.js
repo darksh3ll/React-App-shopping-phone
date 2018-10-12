@@ -1,25 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+// import Users from "./components/Users";
+import DataArticles from "./components/DataArticles";
+import Panier from "./components/Panier";
+
 
 class App extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            listarticle:[]
+        }
+    }
+    // Ajout article au panier
+    addArticle(article){
+        let currentAtricle = this.state.listarticle;
+        currentAtricle.push(article);
+        this.setState({lisarticle:currentAtricle});
+    }
+    deleteArticle(article){
+        let currentAtricle = this.state.listarticle;
+        const indexOfarticle=currentAtricle.indexOf(article);
+        indexOfarticle.splice(indexOfarticle,1);
+        this.setState({listarticle: currentAtricle})
+
+    }
   render() {
+        console.log(this.state.listarticle);
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+         <Panier article={this.state.listarticle}/>
+          <DataArticles
+              addArticle={(article)=>this.addArticle(article)}
+          />
       </div>
     );
   }
