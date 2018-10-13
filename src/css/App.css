@@ -9,6 +9,7 @@
     text-align: center;
     border-radius: 5px;
 }
+
 ul li {
     list-style-type: none;
 }
@@ -22,10 +23,10 @@ ul li {
 
 .articlepanier {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 50px 1fr 4fr 1fr;
     justify-items: center;
     grid-template-rows: auto;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0,0,0,0.11);
     align-items: center;
 }
 
